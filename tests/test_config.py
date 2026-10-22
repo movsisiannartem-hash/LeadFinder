@@ -27,3 +27,5 @@ def test_load_config_invalid_workers(monkeypatch):
 
     with pytest.raises(ValueError):
         load_config()
+
+#67
